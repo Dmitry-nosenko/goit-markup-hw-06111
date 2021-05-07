@@ -526,16 +526,18 @@
             placeholder="Введите текст"
             class="textarea input"
           ></textarea>
-          <input
-            name="checkbox"
-            type="checkbox"
-            id="checkbox"
-            class="checkbox visually-hidden"
-          />
-          <label for="checkbox" class="label checkbox-label"
-            >Соглашаюсь с рассылкой и принимаю
-            <a href="#" class="checkbox-link">Условия договора</a></label
-          >
+          <div class="checkbox-field">
+            <input
+              name="checkbox"
+              type="checkbox"
+              id="checkbox"
+              class="checkbox visually-hidden"
+            />
+            <label for="checkbox" class="label checkbox-label"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="#" class="checkbox-link">Условия договора</a></label
+            >
+          </div>
           <button type="submit" class="button button-modal">Отправить</button>
         </form>
         <button data-modal-close class="modal-close">

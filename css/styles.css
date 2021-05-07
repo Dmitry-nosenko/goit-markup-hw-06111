@@ -112,7 +112,7 @@ ul {
   opacity: 1;
   position: absolute;
   display: block;
-  bottom: -35.5px;
+  bottom: -36.7px;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -210,6 +210,7 @@ ul {
 }
 
 .overlay {
+  display: block;
   max-width: 1600px;
   max-height: 600px;
   margin-left: auto;
@@ -328,8 +329,13 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
-  padding-left: 24px;
+  padding-left: 37px;
   margin-top: 20px;
+}
+
+.checkbox-field {
+  display: inline-flex;
+  vertical-align: middle;
 }
 
 .checkbox-link {
@@ -340,8 +346,8 @@ ul {
 .checkbox-label::before {
   content: "";
   position: absolute;
-  bottom: 127px;
-  left: 48px;
+  bottom: 126px;
+  left: 52px;
   display: inline-block;
   width: 16px;
   height: 16px;
